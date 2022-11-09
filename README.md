@@ -10,8 +10,6 @@ Feeback Generator API for Python
 import sys
 sys.path.insert(0,'/usr/lib/chromium-browser/chromedriver')
 
-import feedback-generator.py
-import feedback-generator import generator
-
+from feedback_generator import generator
 print(generator("coffee"))
 ```
