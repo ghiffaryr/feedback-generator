@@ -1,5 +1,5 @@
-# feeback-generator
-Feeback Generator API for Python
+# feedback-generator
+Feedback Generator API for Python
 
 # Steps
 ```
@@ -11,5 +11,7 @@ import sys
 sys.path.insert(0,'/usr/lib/chromium-browser/chromedriver')
 
 from feedback_generator import generator
-print(generator("coffee"))
+
+for num in range(10):
+    print(generator("coffee"))
 ```
